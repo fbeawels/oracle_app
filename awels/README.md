@@ -1,78 +1,74 @@
-```markdown
 # Oracle App Knowledge Base
 
-Welcome to the **Oracle App Knowledge Base** repository. This project serves as a comprehensive source of information and tools for users and developers interacting with Oracle applications. The knowledge base is designed to enhance understanding and ease of use, while also supporting the automation and analysis of application elements.
+Welcome to the Oracle App Knowledge Base repository. This project is designed to facilitate efficient information retrieval and management for the Oracle application utilizing advanced AI-driven tools. Below you'll find a comprehensive overview of the project's details and usage instructions to get you started.
 
 ## Project Overview
 
-This repository is structured to process, analyze, and store various types of data related to Oracle applications. Whether you are a developer, a documenter, or a researcher, this project aims to streamline your workflow by providing clear context, comprehensive prompts, and detailed specifications. 
+This project is a dedicated knowledge base intended to enhance the accessibility and comprehension of information related to the Oracle app. By employing state-of-the-art natural language processing and vector storage technologies, this repository provides a robust framework for data analysis, enabling easy access and discovery of relevant information.
 
-### Repository
-
-- **GitHub URL**: [fbeawels/oracle_app](https://github.com/fbeawels/oracle_app.git)
+**Repository:** [oracle_app](https://github.com/fbeawels/oracle_app.git)
 
 ## Processing Summary
 
-The data processed in this project is divided into several types, each handled by a dedicated analysis script:
+The knowledge base compiles and processes various types of files including code, documentation, and images. Through detailed analysis, these files are transformed into a structured format for efficient information retrieval.
 
-- **Code Files**: 1 file processed
-- **Documentation Files**: 1 file processed
-- **Image Files**: 0 files processed
+### Files Processed
 
-Specific methodologies and scripts are used to analyze each file type, contributing to the richness and precision of our knowledge base.
+- **Code Files:** 1
+- **Documentation Files:** 1
+- **Image Files:** 16
+
+### Generated Collections
+
+- **Code Collection:** `fbeawels-oracle-code` with 4 vector points
+- **Documentation Collection:** `fbeawels-oracle-doc` with 26 vector points
+- **Image Collection:** `fbeawels-oracle-multi` with 32 vector points
 
 ## Tools Used
 
-To ensure robust processing and analysis, the following tools are employed:
+This project utilizes an array of sophisticated tools to ensure comprehensive data analysis and an effective knowledge management system. Below is a list of the tools employed:
 
-- **LLM**: OpenAI GPT-4o for generating contextual understanding and performing code analysis.
-- **Embeddings**: Ollama with the nomic-embed-text model for creating vector representations of the text.
-- **Vector Database**: Qdrant for storing and managing vectorized data.
-- **Analysis Scripts**:
-  - **Code Analysis**: `build_code.py`
-  - **Document Analysis**: `build_doc.py`
-  - **Image Analysis**: `build_multi.py`
+- **Large Language Model (LLM):** OpenAI GPT-4o for context generation and code analysis
+- **Embeddings:** Ollama's nomic-embed-text model for text embeddings
+- **Vector Database:** Qdrant for vector point storage
+- **Code Analysis Tool:** `build_code.py`
+- **Document Analysis Tool:** `build_doc.py`
+- **Image Analysis Tool:** `build_multi.py`
 
 ## Statistics
 
-The following statistics provide an overview of the current state of our knowledge base:
+Detailed statistics of the processing and data collection are provided below to offer insights into the scope and scale of the project:
 
-| Collection Type       | Collection ID            | Points Stored |
-|-----------------------|--------------------------|---------------|
-| Code                  | fbeawels-oracle-code     | 0 points      |
-| Documentation         | fbeawels-oracle-doc      | 0 points      |
-| Image                 | fbeawels-oracle-multi    | 0 points      |
-
-These figures represent the initialization phase. As the project progresses, data points will be added to enrich the collections.
+| File Type         | Files Processed | Vector Points |
+|-------------------|-----------------|---------------|
+| Code              | 1               | 4             |
+| Documentation     | 1               | 26            |
+| Image             | 16              | 32            |
 
 ## Usage Instructions
 
-Below are the essential steps to utilize the resources provided in this repository:
+To utilize the knowledge base and explore the repository's resources, please follow the steps outlined below:
 
-1. **Clone the Repository**:
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/fbeawels/oracle_app.git
+   ```
+
+2. **Navigate to the Directory:**
+   ```bash
    cd oracle_app
    ```
 
-2. **Access Generated Files**:
-   - **CONTEXT.md**: Provides detailed context and understanding of the repository elements.
-   - **PROMPT.md**: Contains system prompts crucial for AI-driven processes within the application.
-   - **SPECS.md**: Offers specifications required for setting up a Langflow agent.
+3. **Review Generated Files:**
+   - **CONTEXT.md:** Provides in-depth context about the repository's purpose and structure.
+   - **PROMPT.md:** Contains system prompts used to facilitate AI-executed tasks.
+   - **SPECS.md:** Lays out the specifications necessary for creating a Langflow agent.
 
-3. **Run Analysis Scripts**:
-   Use the provided scripts to analyze new data or re-analyze existing data:
-   ```bash
-   python build_code.py  # Analyze code files
-   python build_doc.py   # Analyze documentation files
-   python build_multi.py # Analyze image files
-   ```
+4. **Explore Vector Database:**
+   - The structured data can be queried using Qdrant for detailed information retrieval.
 
-4. **Contributions**: Feel free to contribute to the repository by submitting pull requests or issues on GitHub to enhance functionality and content.
+By following these instructions, users can harness the full capabilities of the Oracle App Knowledge Base to efficiently manage and explore application data.
 
-## Conclusion
+---
 
-The Oracle App Knowledge Base is continuously evolving and your contributions are valuable. Stay tuned for updates and improvements. We hope this resource significantly aids in your understanding and interaction with Oracle applications.
-```
-
-This README.md file provides a comprehensive overview of the Oracle App Knowledge Base repository, facilitating a clear understanding for users and developers on how to leverage the available tools and data.
+Thank you for exploring the Oracle App Knowledge Base. For further inquiries or contributions, please refer to the repository's contribution guidelines and issue tracker.
